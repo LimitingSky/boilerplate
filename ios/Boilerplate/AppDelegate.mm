@@ -6,7 +6,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  self.moduleName = @"femsa";
+  self.moduleName = @"Boilerplate";
   return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }
 

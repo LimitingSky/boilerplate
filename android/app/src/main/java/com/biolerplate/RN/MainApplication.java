@@ -1,4 +1,4 @@
-package com.femsa;
+package com.biolerplate.RN;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

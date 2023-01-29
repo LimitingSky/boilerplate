@@ -93,9 +93,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.femsa"
+    namespace "com.biolerplate.RN"
     defaultConfig {
-        applicationId "com.femsa"
+        applicationId "com.biolerplate.RN"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
