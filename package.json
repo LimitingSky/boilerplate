@@ -8,9 +8,11 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "postinstall": "cd ios && pod install"
+    "postinstall": "cd ios && arch -x86_64 pod install"
   },
   "dependencies": {
+    "@react-native-firebase/app": "^16.7.0",
+    "@react-native-firebase/firestore": "^16.7.0",
     "@react-navigation/native": "^6.1.2",
     "@react-navigation/native-stack": "^6.9.8",
     "react": "18.2.0",
@@ -24,6 +26,7 @@
     "@babel/preset-env": "^7.14.0",
     "@babel/runtime": "^7.12.5",
     "@react-native-community/eslint-config": "^3.0.0",
+    "@testing-library/react-native": "^11.5.1",
     "@tsconfig/react-native": "^2.0.3",
     "@types/jest": "^29.2.6",
     "@types/react": "^18.0.27",
